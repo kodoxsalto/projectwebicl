@@ -8,8 +8,8 @@
 .containervirtuallabtour{
     background: 
     linear-gradient(180deg, rgba(10,20,47,0) 0%, rgba(10, 20, 47, 0.85) 100%),
-    url("../Navbar Home/Asset/DSC09957.JPG") no-repeat top / cover ;
-    height: 90vh;
+    url("../Navbar Home/Asset/DSC09957.JPG") no-repeat 50% 25% / cover ;
+    height: 70vh;
     width: 100%;
     position: relative;
 }
@@ -52,4 +52,16 @@
 }
 .containercarousel{
     margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-next-icon{
+    background-image: url('./Asset/right-arrow.png');
+    width: 30px;
+    height: 30px;
+}
+.container{
+    margin: 0;
+    padding: 0;
 }
