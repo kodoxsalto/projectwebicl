@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+}
+
+/* .containervirtuallabtour img{
+    position: relative;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: top;
+    background: 
+    linear-gradient(180deg, rgba(10,20,47,0) 0%, rgba(10, 20, 47, 0.85) 100%);
+   
+} */
+.containervirtuallabtour{
+    background: 
+    linear-gradient(180deg, rgba(10,20,47,0) 0%, rgba(10, 20, 47, 0.85) 100%),
+    url("../Asset/DSC09957.JPG") no-repeat 50% 25% / cover ;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+.containervirtuallabtour h3{
+    color: white;
+    position: relative;
+    padding-left: 5%;
+    top: 80%;
+    font-size: 36px;
+    line-height: 45px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    letter-spacing: 3px;
+    
+    
+}
+/* .coba{
+    height: 10000px;
+    background-color: black;
+    width: 100%;
+} */
